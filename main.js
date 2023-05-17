@@ -1,21 +1,4 @@
 
-// var songs = [
-// "Time to Pretend",
-// "O-o-oh Child",
-// "Wish You Were Here",
-// "Heroes",
-// "I Put a Spell on You",
-// "Call Me",
-// "Paper Planes",
-// "Jolene",
-// "You Don't Own Me",
-// "Fast Car",
-// "Run the World (Girls)",
-// "Superstition"
-// ];
-
-
-
 const listContainer = document.querySelector("ol");
 
 let songss = [
@@ -40,7 +23,6 @@ for (let i = 0; i < songss.length; i++) {
     let songsList = document.createElement("li");
 
     song = songss[i];
-
     songsList.innerHTML = song;
     listContainer.append(songsList);
 }
