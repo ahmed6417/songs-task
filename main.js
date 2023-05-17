@@ -17,6 +17,7 @@ let songss = [
     ];
 
 
+
 for (let i = 0; i < songss.length; i++) {
     
     let hashicon = "#"
@@ -35,3 +36,4 @@ function playSongs() {
     play.style.display = "none";
     byJs.style.display = "grid";
 }
+
