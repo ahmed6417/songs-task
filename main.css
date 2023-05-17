@@ -1,0 +1,114 @@
+
+html {
+    display: grid;
+    justify-items: center;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    height: 100%;
+}
+
+body {
+    background-color: #532a7f;
+    font-family: "Archivo", sans-serif;
+    color: #fff;
+}
+
+.body-content {
+    display: block;
+    margin: auto;
+    width: 100%;
+}
+
+.body-p1 {
+    max-width: 50%;
+    text-align: center;
+    line-height: 1.5;
+    text-transform: uppercase;
+    font-size: 14px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+button.body-button {
+    background: #fff;
+    border: 0;
+    padding: 15px;
+    color: #532a7f;
+    font-weight: 700;
+}
+
+.fa-music:before {
+    margin-right: 10px;
+}
+
+
+ol#by-js {
+    padding: 50px;
+    border: solid 1px #fff;
+}
+
+
+.body-h1 {
+    width: max-content;
+    font-size: 25px;
+}
+
+
+.body-content {
+    margin: auto;
+    width: fit-content;
+    display: grid;
+    align-items: center;
+    justify-items: center;
+}
+
+.body-sec-cont {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+}
+
+.body-scont {
+    margin-top: 50px;
+    border: solid 1px #fff;
+    padding: 50px;
+}
+
+.song {
+    display: flex;
+    align-items: center;
+}
+
+
+.song-num {
+    background: #9C27B0;
+    padding: 8px;
+    margin-right: 10px;
+}
+
+ol {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+}
+
+ol > li:before {
+    content: "#"counter(customlistcounter);
+    font-weight: bold;
+    width: 3em;
+    background: #9c27b0;
+    padding: 5px;
+    margin-right: 10px;
+}
+ol {
+    list-style-type: none;
+    margin-left: 0;
+}
+ol > li {
+    counter-increment: customlistcounter;
+}
+
+#by-js {
+    display: none;
+}
